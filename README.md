@@ -97,4 +97,3 @@ Pruebas opcionales:
 alterar sus ids. Usar filtros o columnas derivadas. P4 incluye todas las válidas;
 P9 solicita un cálculo corregido específico. Un descenso de seq por sí solo no
 debe generar una nueva sesión.
-"# Lab 3 " 
