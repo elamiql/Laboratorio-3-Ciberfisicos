@@ -1,5 +1,20 @@
-# Caché de python
+# Caché de Python
 __pycache__/
+*.py[cod]
+.pytest_cache/
 
-# Entorno de pruebas
-.venv
+# Entorno virtual
+.venv/
+venv/
+
+# Bases de datos locales y respaldos
+*.db
+
+# Archivos temporales
+*.tmp
+*.log
+
+# Respuestas por partes
+
+respuestas_parte1.md
+respuestas_parte2.md

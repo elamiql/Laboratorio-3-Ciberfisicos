@@ -1,0 +1,19 @@
+{
+  "MTTR_s": 19.852,
+  "MTBF_s": 579.4386666666667,
+  "A_porcentaje": 96.68741712424467,
+  "reparacion_total_s": 59.556,
+  "flotante_marcadas": 27,
+  "fdi_tramas": 48,
+  "temperatura_pre": 31.15142857142858,
+  "temperatura_post": 31.158823529411766,
+  "temperatura_fdi": 35.89791666666667,
+  "alteracion_media_C": 4.742790616246495,
+  "max_tasa_referencia": 0.40899795501022534,
+  "umbral_tasa": 0.42,
+  "alarmas_tasa": 4,
+  "replay_tramas": 30,
+  "D_corregida": 93.92898052691866,
+  "L_autenticada": 66.62588235294118,
+  "rho_autenticada": 0.27343282626472976
+}

@@ -51,3 +51,14 @@ SELECT SUM(dt<3) AS menor_3,
        SUM(dt>=5 AND dt<=10) AS entre_5_y_10,
        SUM(dt>10) AS mayor_10
 FROM intervalos WHERE dt IS NOT NULL;
+
+
+-- P6-P8: series y rechazos usados por el análisis Python.
+SELECT * FROM tramas ORDER BY id;
+SELECT * FROM rechazos ORDER BY id;
+-- P9: igualdad del contenido con mensajes anteriores.
+SELECT a.id,a.ts,a.seq,b.id AS id_original,b.ts AS ts_original
+FROM tramas a JOIN tramas b
+ON a.seq=b.seq AND a.t_ms=b.t_ms AND a.t_mcu=b.t_mcu
+AND a.a0=b.a0 AND a.pulsos=b.pulsos AND a.boton=b.boton
+AND b.id<a.id ORDER BY a.id;
