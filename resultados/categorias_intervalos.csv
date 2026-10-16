@@ -1,0 +1,5 @@
+categoria,cantidad
+dt < 3 s,825
+3 <= dt < 5 s,20
+5 <= dt <= 10 s,1
+dt > 10 s,3

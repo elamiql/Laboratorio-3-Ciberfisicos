@@ -1,0 +1,5 @@
+# Caché de python
+__pycache__/
+
+# Entorno de pruebas
+.venv

@@ -1,0 +1,54 @@
+{
+  "n_sesiones": 4,
+  "Nesp": 873,
+  "Nval": 850,
+  "Ncorr": 13,
+  "Nperd": 10,
+  "D_porcentaje": 97.36540664375715,
+  "primera_ts": "2026-10-08 15:00:01.604000",
+  "ultima_ts": "2026-10-08 15:29:59.476000",
+  "T_s": 1797.872,
+  "X_tramas_s": 0.47278115460944936,
+  "L_bytes": 32.625882352941176,
+  "bytes_totales_validas_con_CRLF": 27732,
+  "R_bit_s": 154.24902328975588,
+  "rho_porcentaje": 0.13389672160569085,
+  "longitud_min_bytes": 29,
+  "longitud_max_bytes": 35,
+  "intervalos": {
+    "dt < 3 s": 825,
+    "3 <= dt < 5 s": 20,
+    "5 <= dt <= 10 s": 1,
+    "dt > 10 s": 3
+  },
+  "sesiones": [
+    {
+      "sesion": 1,
+      "n_validas": 319,
+      "max_seq": 330,
+      "primera_ts": "2026-10-08 15:00:01.604",
+      "ultima_ts": "2026-10-08 15:10:59.723"
+    },
+    {
+      "sesion": 2,
+      "n_validas": 182,
+      "max_seq": 187,
+      "primera_ts": "2026-10-08 15:11:18.725",
+      "ultima_ts": "2026-10-08 15:17:30.793"
+    },
+    {
+      "sesion": 3,
+      "n_validas": 211,
+      "max_seq": 213,
+      "primera_ts": "2026-10-08 15:17:55.623",
+      "ultima_ts": "2026-10-08 15:24:59.700"
+    },
+    {
+      "sesion": 4,
+      "n_validas": 138,
+      "max_seq": 143,
+      "primera_ts": "2026-10-08 15:25:15.424",
+      "ultima_ts": "2026-10-08 15:29:59.476"
+    }
+  ]
+}

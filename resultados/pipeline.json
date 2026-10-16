@@ -1,0 +1,46 @@
+{
+  "lineas_datos": 866,
+  "validas": 850,
+  "rechazos": {
+    "basura": 3,
+    "truncada": 4,
+    "checksum": 9,
+    "formato": 0
+  },
+  "verificacion": {
+    "resumen": {
+      "main": {
+        "tramas": 850,
+        "suma_seq": 99647,
+        "suma_a0": 482689,
+        "rechazos": {
+          "basura": 3,
+          "truncada": 4,
+          "checksum": 9,
+          "formato": 0
+        }
+      },
+      "ref": {
+        "tramas": 850,
+        "suma_seq": 99647,
+        "suma_a0": 482689,
+        "rechazos": {
+          "basura": 3,
+          "truncada": 4,
+          "checksum": 9,
+          "formato": 0
+        }
+      }
+    },
+    "diferencias": {
+      "tramas_main_menos_ref": [],
+      "tramas_ref_menos_main": [],
+      "rechazos_main_menos_ref": [],
+      "rechazos_ref_menos_main": []
+    },
+    "igualdad_completa_por_id": {
+      "tramas": true,
+      "rechazos": true
+    }
+  }
+}
